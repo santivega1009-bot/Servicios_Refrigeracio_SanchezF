@@ -1,62 +1,19 @@
-[Project]
-FileName=main.cpp
-Name=rrr
-Type=1
-Ver=2
-ObjFiles=
-Includes=
-Libs=
-PrivateResource=
-ResourceIncludes=
-MakeIncludes=
-Compiler=
-CppCompiler=
-Linker=
-IsCpp=1
-Icon=
-ExeOutput=
-ObjectOutput=
-LogOutput=
-LogOutputEnabled=0
-OverrideOutput=0
-OverrideOutputName=
-HostApplication=
-UseCustomMakefile=0
-CustomMakefile=
-CommandLine=
-Folders=
-IncludeVersionInfo=0
-SupportXPThemes=0
-CompilerSet=0
-CompilerSettings=0000000000000000000000000
-UnitCount=1
+#include <iostream>
 
-[VersionInfo]
-Major=1
-Minor=0
-Release=0
-Build=0
-LanguageID=1033
-CharsetID=1252
-CompanyName=
-FileVersion=
-FileDescription=Developed using the Dev-C++ IDE
-InternalName=
-LegalCopyright=
-LegalTrademarks=
-OriginalFilename=
-ProductName=
-ProductVersion=
-AutoIncBuildNr=0
-SyncProduct=1
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-[Unit1]
-FileName=main.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
+int main() {
+    std::cout << "=================================================\n";
+    std::cout << "     SERVICIOS Y MANTENIMIENTO DE CLIMAS         \n";
+    std::cout << "=================================================\n\n";
+    std::cout << "1. Mantenimiento Preventivo .......... $30 USD\n";
+    std::cout << "   (Limpieza profunda, revision de presiones y gas)\n\n";
+    std::cout << "2. Instalacion de Minisplit .......... $50 USD\n";
+    std::cout << "   (Montaje completo de unidad interior y exterior)\n\n";
+    std::cout << "3. Recarga de Gas Refrigerante ....... $40 USD\n";
+    std::cout << "   (Diagnostico de fugas y carga de gas R410/R22)\n\n";
+    std::cout << "-------------------------------------------------\n";
+    std::cout << "Para agendar tu cita, contactanos por WhatsApp.\n";
+    std::cout << "=================================================\n";
+	return 0;
+}
